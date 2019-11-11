@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 """
 Author: Nick Russo
 Purpose: Using RESTCONF with IOS-XE specific YANG models to collect static
@@ -51,7 +50,7 @@ def main():
     # Print route details in a human-readable format
     rtes = get_rte_resp.json()["ietf-routing:routing-protocol"]["static-routes"]
     for rte in rtes["ietf-ipv4-unicast-routing:ipv4"]["route"]:
-        # Don't need .get() for the prefix, its the "key"
+        # Don't need .get() for the prefix, it's the "key"
         print(f"Prefix: {rte['destination-prefix']} via ", end="")
 
         # Next-hop is outgoing interface, IP address, or possibly both

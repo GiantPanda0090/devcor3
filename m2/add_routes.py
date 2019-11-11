@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 """
 Author: Nick Russo
 Purpose: Using RESTCONF with IOS-XE specific YANG models to collect static
@@ -64,9 +63,6 @@ def main():
         print(f"At least one static route already exists")
     else:
         print(f"Unexpected {get_rte_resp.status_code}")
-
-    # Uncomment the line below to see the JSON response; great for learning
-    # import json; print(json.dumps(get_rte_resp.json(), indent=2))
 
 
 if __name__ == "__main__":

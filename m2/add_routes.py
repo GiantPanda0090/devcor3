@@ -46,7 +46,7 @@ def main():
         "routing-protocols/routing-protocol=static,1/static-routes/ipv4"
     )
 
-    get_rte_resp = requests.post(
+    add_rte_resp = requests.post(
         static_route_add_url,
         headers=post_headers,
         auth=auth,
@@ -57,12 +57,12 @@ def main():
     # Good: 201 CREATED means routes were added
     # Bad: 409 CONFLICT means some routes already exist, cannot overwrite
     # Ugly: Other unexpected messages like 401, 404, etc
-    if get_rte_resp.status_code == 201:
+    if add_rte_resp.status_code == 201:
         print(f"Added new static routes successfully")
-    elif get_rte_resp.status_code == 409:
+    elif add_rte_resp.status_code == 409:
         print(f"At least one static route already exists")
     else:
-        print(f"Unexpected {get_rte_resp.status_code}")
+        print(f"Unexpected {add_rte_resp.status_code}")
 
 
 if __name__ == "__main__":

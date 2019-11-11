@@ -34,3 +34,5 @@ reference for learning:
      unicast routing YANG model.
   * `get_rtes_resp.json`: Output from the "get" script for the
      router targeted by the script (currently IOS-XE "latest").
+  * `add_rtes_duplicate.json`: Output from the "add" script
+     when an addition fails due to an object already existing.

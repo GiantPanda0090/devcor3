@@ -35,14 +35,12 @@ def main():
     with open("config_state.yml", "r") as handle:
         config_state = yaml.safe_load(handle)
 
-    # Define headers for issuing HTTP DELETE requests to receive YANG data as JSON.
+    # Headers for issuing HTTP DELETE requests to receive YANG data as JSON
     delete_headers = {
-        "Accept": "application/yang-data+json",
-        "Content-Type": "application/yang-data+json",
+        "Accept": "application/yang-data+json, application/yang-data.errors+json"
     }
 
-    # Issue a POST request to add new static routes. This will
-    # return a list of dictionaries where each dictionary represents a route.
+    # Define the URL for accessing the IPv4 static routes
     static_route_url = (
         f"{api_path}/data/ietf-routing:routing/routing-instance=default/"
         "routing-protocols/routing-protocol=static,1/static-routes/ipv4"

@@ -1,4 +1,3 @@
-
 module: ietf-ip
   augment /if:interfaces/if:interface:
     +--rw ipv4!

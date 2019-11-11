@@ -13,6 +13,7 @@ ansible_password: "C1sco12345"
 new_interfaces:
   interface:
     - name: "Loopback42518"
+      description: "Anycast service address"
       type: "iana-if-type:softwareLoopback"
       enabled: true
       ietf-ip:ipv4:

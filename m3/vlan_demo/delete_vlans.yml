@@ -1,6 +1,6 @@
 ---
 - name: "PLAY 1: VLAN DELETE"
-  hosts: restconf_switches
+  hosts: "restconf_switches"
   tasks:
     # Loop over list of interfaces and issue individual HTTP DELETE
     # requests for each one. Must specify the key (VLAN ID) in

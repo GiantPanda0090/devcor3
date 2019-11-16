@@ -2,7 +2,7 @@
 
 """
 Author: Nick Russo
-Purpose: Using RESTCONF with IOS-XE specific YANG models to collect static
+Purpose: Using RESTCONF with IOS-XE specific YANG models to add static
 routes on a Cisco IOS-XE router via the always-on Cisco DevNet sandbox.
 """
 

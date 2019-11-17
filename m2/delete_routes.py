@@ -31,7 +31,7 @@ def main():
     # No fancy tokens needed to get basic RESTCONF working on Cisco IOS-XE.
     auth = ("developer", "C1sco12345")
 
-    # Read YAML declarative state with list of static routes to add
+    # Read YAML declarative state with list of static routes to delete
     with open("config_state.yml", "r") as handle:
         config_state = yaml.safe_load(handle)
 

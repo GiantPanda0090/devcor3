@@ -1,12 +1,10 @@
 # Problem
-Imagine you work for a large, Global service provider named Wired Brain Coffee
-company. They started off as a coffee chain but entered the telecommunications
-business primarily as a mechanism to interconnect their shops back to the
-headquarters site without paying high transport costs. These days, the company
-has divested it's coffee franchise and is facing pressure from investors to
-improve profitability. Top management has decided that the best strategy is a
-mix of cost reduction and cost avoidance, as growing sales in a stale market
-is notoriously difficult.
+Imagine you work for a large, global service provider named Globomantics. I'm
+reusing the Globomantics name for this scenario. It's unrelated to the
+previous Globomantics content we've explored throughout the learning path. The
+company is facing pressure from investors to improve profitability. Top
+management has decided that the best strategy is a mix of cost reduction and
+cost avoidance, as growing sales in a stale market is notoriously difficult.
 
 As an internationally-operated network, there are extensive policies on how
 configuration management works. Adding new network services, such as

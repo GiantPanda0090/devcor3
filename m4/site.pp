@@ -40,14 +40,14 @@ node "ip-10-125-0-45.ec2.internal" {
   # NXOS DevNet sandbox
   device_manager {'nxos_sandbox':
   type           => 'cisco_nexus',
-  credentials    => {
-    host            => 'sbx-nxos-mgmt.cisco.com',
-    port            => 443,
-    user            => 'admin',
-    password        => 'Admin_1234!',
-    transport       =>  'https',
-  },
-  include_module => false,
+    credentials    => {
+      host            => 'sbx-nxos-mgmt.cisco.com',
+      port            => 443,
+      user            => 'admin',
+      password        => 'Admin_1234!',
+      transport       =>  'https',
+    },
+    include_module => false,
   }
 }
 

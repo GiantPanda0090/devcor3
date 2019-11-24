@@ -26,12 +26,11 @@ def main():
 
     # Define logstash connection parameters to reach the ELK stack container.
     # It uses logstash v1 format on TCP port 5045 per the logstash config.
-    logstash_params = {"host": "10.125.0.94", "port": 5045, "version": 1}
+    logstash_params = {"host": "elk.njrusmc.net", "port": 5045, "version": 1}
     logger.addHandler(TCPLogstashHandler(**logstash_params))
 
     # Define NETCONF connection parameters to reach the Cisco always-on IOS-XE
-    # latest code sandbox. Sandbox link is below:
-    # https://devnetsandbox.cisco.com/RM/Diagram/Index/38ded1f0-16ce-43f2-8df5-43a40ebf752e?diagramType=Topology
+    # latest code sandbox as a demonstration.
     netconf_params = {
         "host": "ios-xe-mgmt-latest.cisco.com",
         "port": 10000,

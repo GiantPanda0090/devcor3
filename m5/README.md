@@ -11,10 +11,12 @@ an existing container which is documented here:
 `https://elk-docker.readthedocs.io/`
 
 Assuming you've already installed `docker` and `docker-compose`, 
-use `sudo docker-compose up` to deploy the stack. Then, run the
+use `sudo docker-compose up` to deploy the stack. You can use
+the Bash scripts in `setup/` to assist with the Docker installation.
+Those are the same scripts from a previous course. Next, run the
 Python script using `python telemetry.py` to use dial-in
-model-driven telemetry (MDT) to the target router.
-Note: URLs and credentials may change over time.
+model-driven telemetry (MDT) to the target router. Be sure to
+update the ELK DNS name or IP address to suit your environment.
 
 ## Making a Dashboard
 Follow these steps to create the two dashboards used in the demo.

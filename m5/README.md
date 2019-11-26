@@ -71,6 +71,8 @@ The Kibana component requires some initial setup:
     - Field: `notification.eventTime`
     - Minimum interval: Manually type 10s to match the period, then press ENTER
   - Go to "Metrics & Axes" tab to rename the Y-axis title to "Memory (bytes)"
+  - Optional: Repeat the previous steps to add a new Y-axis to add
+    "stacking" to the area chart, such as total memory, etc.
   - Click the blue triangle "play" button to apply if the graph doesn't appear
   - Click "Save" at the top and provide a useful name, such as "memory"
 

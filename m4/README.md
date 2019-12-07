@@ -19,6 +19,11 @@ one of the simplest ways to get started. These are the high-level steps:
   4. Verify correct installation with `puppet module list`
   5. Reference this documentation to learn how to use this Cisco NXOS
      module: `https://forge.puppet.com/puppetlabs/ciscopuppet`
+  6. Copy `site.pp` from this directory into the following path:
+     `/etc/puppetlabs/code/environments/production/manifests/site.pp`
+  7. Update `site.pp` with your puppet master hostname and network devices.
+  8. Run `puppet agent -t` to update puppet.
+  9. Run `puppet device -v` to apply the configuration changes.
 
 Note that this repo is very specific to Cisco DevNet's IOS-XE sandbox, so if
 you aren't using that specific sandbox, the IP addresses may change. In the

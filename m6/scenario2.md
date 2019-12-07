@@ -28,7 +28,7 @@ infrastructure in the future. Having an automated configuration management
 process would be a huge advantage, and probably necessary for success.
 
 Although management is stingy with money, they don't add needless approvals
-into IT processes. The IT administrators can make any change whenever they see
+into IT processes. The IT administrators can make any change wherever they see
 fit, provided the change passes their extensive test process. It's a
 collection of automated tests that get run manually before changes are made.
 The team knows that if they can set up their environment for declarative,
@@ -41,7 +41,7 @@ Unlike the previous scenario, the concern isn't about reducing cost, but
 growing sales. Undertaking multiple concurrent sales strategies is sure to put
 on a strain on the IT infrastructure, but management needs to see proof first.
 
-As discussed in a previous course, agents are small software packages that can
+As discussed previously, agents are small software packages that can
 be installed on systems to provide additional monitoring details. Often this
 is far more effective than SNMP and would help get the information that
 management needs regarding system utilization and performance. Independent
@@ -59,16 +59,16 @@ same regardless of the tooling used, although a few steps may change. In this
 case, our highly-skilled administrators will be writing Puppet code. I think
 Puppet makes more sense than Ansible for this customer since the agent-based
 monitoring on their servers should result in better data collection and
-monitoring. Once again, the administrators can push their code up to a remote
-git repository like github, which kicks off a Travis CI pipeline run.
+monitoring. Once again, the administrators can push their code to a remote
+git repository like GitHub, which kicks off a Travis CI pipeline run.
 Considering this customer already had strong automated testing that was run
 manually, retooling the tests to work in a CI service like Travis should be
 simple.
 
 Additionally, we can use continuous deployment to automatically deploy
-updates based on the puppet manifest. Maybe the CD system is still travis, but
+updates based on the puppet manifest. Maybe the CD system is still Travis, but
 it can run a script containing the proper "puppet" commands. This would
-rapidly enable changes to the architecture, and even when changes aren't being
+rapidly enable changes to the architecture. Even when changes aren't being
 made, the team can collect the data they need to justify expanding their
 compute environment. If you chose an agentless solution like Ansible or failed
 to include continuous deployment in your proposed solution, you should mark

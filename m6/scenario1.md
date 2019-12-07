@@ -20,7 +20,8 @@ customers, though. These contractors have entry level network and system
 administration skills. They also know how to navigate a Bash shell and edit
 text files. Most of them have basic HTTP knowledge given their experience in
 hosting a web portal for customer support tickets. A handful have worked with
-REST-style APIs, too. None of them have experience with programming languages.
+REST-style APIs, too. None of them have any experience with programming
+languages.
 
 The IT operations vice president, who is responsible for all things IT, wants
 to somehow manage this network infrastructure in a more declarative way

@@ -23,7 +23,7 @@ mine's network, they need to complete the network integration immediately.
 
 The mine was purchased using stock as Globomantics was conserving cash for
 making future IT investments in support of the acquisition. The company has a
-substantial sum of money for capital investment, but they aren't sure where or
+large sum of money for capital investment, but they aren't sure where or
 how to spend it. Some proposals call for simply buying an existing network
 management solution from the commercial market. Others suggest reassigning the
 company's internal developers from customer projects to internal IT
@@ -46,7 +46,7 @@ The whole reason the company performed the acquisition in the first place was
 to leverage the natural efficiencies of a combined firm. A reduction of OPEX
 over time is how this customer will measure success.
 
-While Globomantics certainly COULD create their own solution, it would require
+While Globomantics certainly could create their own solution, it would require
 pulling their developers away from customer-facing work. Alternatively, they
 could outsource this project to a remote dev team, but that would take too long.
 
@@ -64,10 +64,10 @@ during the mine integration.
 
 Because the individual sites within the mine are spread apart and connected
 wirelessly, they can be integrated into Globomantics one-by-one, reducing
-migratory risk. If a single site fails, the rest of the mine will have
-connectivity and will continue operating normally. In terms of time and money,
-Globomantics will make an upfront investment for a professional-grade product
-that presumably comes with vendor service support. They'll get immediately
+migratory risk. If the migration of a single site fails, the rest of the mine
+will have connectivity and will continue operating normally. In terms of time
+and money, Globomantics will make an upfront investment for a professional-grade
+product that presumably comes with vendor service support. They'll get immediate
 access to the product, ultimately assisting with their goal of rapid
 integration. If you suggested that Globomantics build their own solution,
 whether by internal or outsourced developers, you should mark this scenario
